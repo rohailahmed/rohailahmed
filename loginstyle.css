@@ -1,0 +1,80 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(../images/HD\ Wallpaper\ Download\ Pakistan\ Flag\ New\ HD\ Wallpapers\ Collection.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:100vh;
+    overflow: hidden;
+}
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px 20px;
+    height: 400px;
+    transform: translate(-45%, -60%);
+}
+.login-form img{
+    width: 25%;
+    margin-left: 29%;
+    margin-bottom: 22px;
+    background-color:#00ff00;
+    border: 0;
+    border-radius: 22px;
+}
+.form-username{
+    width: 85%;
+    margin-bottom: 12px;
+    padding: 12px 10px;
+    background-color: #111;
+    border: 0;
+    outline: none;
+    transition: 0.3s;
+    font-size: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: #fff;
+}
+.form-username:focus{
+    box-shadow: 0 0 10px 4px #fff;
+}
+.form-password{
+    width: 85%;
+    margin-bottom: 20px;
+    padding: 12px 10px;
+    background-color: #111;
+    border: 0;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 15px;
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form-password:focus{
+    box-shadow: 0 0 10px 4px #fff;
+}
+.form-submit{
+    padding: 12px 38px;
+    margin-left: 31%;
+    background-color: #111;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 12px; 
+    color: #fff;
+}
+.form-submit:hover{
+    background-color:green;
+    color: #111;
+    box-shadow: 0 0 10px 4px #111;
+}
